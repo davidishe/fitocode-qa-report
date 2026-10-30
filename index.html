@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer"><meta name="report-version" content="fitocode-journey-20261025-published-20261031-v1">
+<title>Фитокод — клиентский путь и отчёт тестирования 25.10.2026</title>
+<meta name="description" content="49 реальных экранов со стрелками, PDF на 22 страницах и 58 оригинальных скриншотов. Результаты локальной проверки Фитокода от 25 октября 2026.">
+<style>
+:root{color-scheme:light;--bg:#f7f6ed;--card:#fffef8;--ink:#183a2e;--green:#235b43;--muted:#5c6e61;--line:#d5ded0;--warn:#81451b}
+*{box-sizing:border-box}html{scroll-padding-top:24px}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:var(--green);text-underline-offset:3px}a:focus-visible{outline:3px solid #b15a1a;outline-offset:5px}.skip{position:absolute;top:-70px;left:12px;background:white;padding:12px;z-index:3}.skip:focus{top:10px}
+.shell{max-width:1200px;margin:auto;padding:0 28px}header{padding:42px 0 26px}.brand{font-size:15px;font-weight:750;letter-spacing:.12em;text-transform:uppercase}h1,h2{font-family:Georgia,"Times New Roman",serif;line-height:1.15;font-weight:500;letter-spacing:-.02em}h1{font-size:clamp(36px,6vw,68px);max-width:900px;margin:26px 0 20px}h2{font-size:clamp(27px,4vw,40px);margin:10px 0 14px}h3{font-size:17px;line-height:1.45;margin:0 0 16px}p{margin:0 0 16px}.intro{max-width:850px;color:var(--muted);font-size:19px}.dates{color:var(--muted);font-size:14px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}.button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 21px;background:var(--green);border:1px solid var(--green);border-radius:14px;color:white;font-weight:650;text-decoration:none}.button.secondary{background:transparent;color:var(--green)}.notice{padding:20px 22px;border:1px solid #ddbda1;border-radius:16px;background:#fff3e5;color:#713c17}.notice a{color:inherit}.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:28px 0}.fact{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}.fact strong{display:block;font-size:27px}.fact span{font-size:14px;color:var(--muted)}
+nav{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 28px}nav a{padding:9px 13px;border:1px solid var(--line);border-radius:12px;text-decoration:none;background:var(--card);font-size:14px}nav b{margin-right:6px}
+.journey{padding:42px 0 34px;border-top:1px solid var(--line)}.eyebrow{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}.description{max-width:920px;color:var(--muted)}.steps{display:flex;align-items:flex-start;gap:18px;margin-top:27px}.step{flex:1;min-width:0}.step h3{min-height:48px}.screen{display:block;max-width:270px;margin:0 auto 19px;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--card)}.screen img{display:block;width:100%;height:auto}.step>p{font-size:14px;line-height:1.65;overflow-wrap:anywhere}.transition{flex:0 0 66px;color:var(--green);text-align:center;margin-top:240px}.transition span{font-size:39px;line-height:1}.transition p{font-size:12px;font-weight:650;margin-top:10px;overflow-wrap:anywhere}.continuation{font-size:14px;font-weight:650;color:var(--green);margin:19px 0 0}.unresolved .eyebrow{color:var(--warn)}.unresolved{border-top:3px solid #ddb08a}.unresolved .steps{max-width:700px;margin-left:auto;margin-right:auto}
+.results{border-top:1px solid var(--line);padding:40px 0}.results article{max-width:980px;margin:27px 0}.results p{color:var(--muted)}details{border:1px solid var(--line);border-radius:16px;padding:18px 22px;margin:24px 0}summary{cursor:pointer;font-weight:650;min-height:30px}.all-images{columns:2;list-style:none;padding:8px 0 0;margin:0;overflow-wrap:anywhere;font-size:14px}.all-images li{break-inside:avoid;margin-bottom:8px}footer{padding:26px 0 40px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}footer p{max-width:1000px}
+@media(max-width:760px){.shell{padding:0 20px}header{padding-top:25px}.intro{font-size:17px}.facts{grid-template-columns:repeat(2,minmax(0,1fr))}.steps{flex-direction:column;align-items:stretch;gap:4px}.step h3{min-height:0}.step{width:100%}.screen{max-width:310px}.step>p{max-width:520px;margin:0 auto 18px}.transition{margin:4px 0 22px;flex:initial;align-self:center;width:100%;max-width:310px}.transition span{display:inline-block;transform:rotate(90deg)}.transition p{font-size:13px;margin-top:5px}.all-images{columns:1}.button{width:100%}.journey{padding-top:30px}}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}@media print{.skip,.actions,nav,details{display:none}body{background:white}.journey{break-inside:avoid}.screen{max-width:180px}.step>p{font-size:10px}.transition{margin-top:160px}}
+</style></head><body data-report-version="fitocode-journey-20261025-published-20261031-v1"><a class="skip" href="#content">Перейти к отчёту</a>
+<header class="shell"><div class="brand">Фитокод / проверка приложения</div><h1>Клиентский путь.<br>Экран за экраном.</h1>
+<p class="intro">Реальные экраны приложения, действия между ними и стрелки переходов. Гостевой режим, аккаунт, уход через Qwen, QR-паспорт, комментарии и настройки.</p>
+<p class="dates">Тестирование: <time datetime="2026-10-25">25 октября 2026</time> · Публикация: <time datetime="2026-10-31">31 октября 2026</time><br>iPhone 17 / iOS 26.5 Simulator · Фитокод 1.0.0 (7)</p>
+<div class="actions"><a class="button" id="download-pdf" href="downloads/Fitocode-client-journey-2026-10-25.pdf">Открыть PDF · 22 страницы</a><a class="button secondary" id="download-archive" href="https://github.com/davidishe/fitocode-qa-report/releases/download/qa-2026-10-25/Fitocode-client-journey-2026-10-25.zip">Скачать все 58 скриншотов · ZIP</a></div>
+<div class="notice"><strong>Есть непройденный шаг.</strong> Выбор фотографии для обложки публичного паспорта не прошёл автопроверку. Исправление не подтверждено. <a href="#g">Посмотреть результат G →</a></div>
+<div class="facts"><div class="fact"><strong>49</strong><span>экранов в маршрутах</span></div><div class="fact"><strong>87</strong><span>backend-тестов прошли</span></div><div class="fact"><strong>38 + 9</strong><span>проверок логики iOS и основных UI-сценариев прошли</span></div><div class="fact"><strong>1</strong><span>дополнительный шаг не прошёл</span></div></div>
+<nav aria-label="Сценарии проверки"><a href="#a"><b>A</b> Без аккаунта</a><a href="#b"><b>B</b> Аккаунт и паспорт</a><a href="#c"><b>C</b> Уход через Qwen</a><a href="#d"><b>D</b> Чужое растение</a><a href="#e"><b>E</b> English</a><a href="#f"><b>F</b> Настройки и уход</a><a href="#g"><b>G</b> Непройденный шаг</a></nav></header><main class="shell" id="content">
+<p class="description">Внутри каждого сценария читайте экраны слева направо, на телефоне — сверху вниз. Возвраты, отмена и прокрутка подписаны. Разные аккаунты и тестовые сессии разделены; это срез от 25 октября, без нового прогона при публикации.</p>
+<section id="a" class="journey">
+<p class="eyebrow">A / ГОСТЬ</p><h2>Коллекция без регистрации</h2>
+<p class="description">Один гостевой сценарий: созданы Монстера, Фикус и Алоэ. Ни входа, ни обращения к облаку для этих действий не требуется.</p><div class="steps"><article class="step"><h3>A1 · Первый запуск</h3>
+<a class="screen" href="screenshots/guest-01-empty-collection.png" target="_blank" rel="noopener" aria-label="Увеличить: A1 · Первый запуск">
+<img src="screenshots/guest-01-empty-collection.png" alt="A1 · Первый запуск" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Сразу открывается коллекция. Можно добавить растение без аккаунта.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Создать 3 растения</p></div><article class="step"><h3>A2 · Название растения</h3>
+<a class="screen" href="screenshots/guest-02-plant-name.png" target="_blank" rel="noopener" aria-label="Увеличить: A2 · Название растения">
+<img src="screenshots/guest-02-plant-name.png" alt="A2 · Название растения" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Третий экземпляр - «Алоэ». Заполнено имя; фотография и вид необязательны.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Сохранить</p></div><article class="step"><h3>A3 · Карточка Алоэ</h3>
+<a class="screen" href="screenshots/guest-03-plant-card.png" target="_blank" rel="noopener" aria-label="Увеличить: A3 · Карточка Алоэ">
+<img src="screenshots/guest-03-plant-card.png" alt="A3 · Карточка Алоэ" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Сохранённое растение открывается в карточке. Доступны уход, история и QR-паспорт.</p></article></div>
+<p class="continuation">Продолжение A: на следующей странице нажимаем «Полил(а)».</p></section><section id="a-2" class="journey">
+<p class="eyebrow">A / ГОСТЬ</p><h2>Полив и план ухода</h2>
+<p class="description">Продолжение той же карточки Алоэ. Проверены запись полива и её отмена.</p><div class="steps"><article class="step"><h3>A4 · Отметка полива</h3>
+<a class="screen" href="screenshots/guest-04-watered.png" target="_blank" rel="noopener" aria-label="Увеличить: A4 · Отметка полива">
+<img src="screenshots/guest-04-watered.png" alt="A4 · Отметка полива" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Нажатие «Полил(а)» добавляет событие. Появляется возможность отмены.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Отменить</p></div><article class="step"><h3>A5 · Отмена полива</h3>
+<a class="screen" href="screenshots/plant-detail.png" target="_blank" rel="noopener" aria-label="Увеличить: A5 · Отмена полива">
+<img src="screenshots/plant-detail.png" alt="A5 · Отмена полива" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Событие отменено. Карточка остаётся открытой.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Добавить план</p></div><article class="step"><h3>A6 · Настройка расписания</h3>
+<a class="screen" href="screenshots/guest-05-care-plan.png" target="_blank" rel="noopener" aria-label="Увеличить: A6 · Настройка расписания">
+<img src="screenshots/guest-05-care-plan.png" alt="A6 · Настройка расписания" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Открыт редактор плана ухода. Можно выбрать тип, интервал и время.</p></article></div>
+<p class="continuation">Продолжение A: «Сохранить» → карточка → вкладка «Сегодня».</p></section><section id="a-3" class="journey">
+<p class="eyebrow">A / ГОСТЬ</p><h2>Сохранённый план появляется в «Сегодня»</h2>
+<p class="description">План ухода связан с конкретным растением. Это продолжение сценария A, а не новое растение.</p><div class="steps"><article class="step"><h3>A7 · План в карточке</h3>
+<a class="screen" href="screenshots/guest-06-saved-plan.png" target="_blank" rel="noopener" aria-label="Увеличить: A7 · План в карточке">
+<img src="screenshots/guest-06-saved-plan.png" alt="A7 · План в карточке" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>После сохранения план отображается у Алоэ.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Сегодня</p></div><article class="step"><h3>A8 · Список дел</h3>
+<a class="screen" href="screenshots/guest-07-today.png" target="_blank" rel="noopener" aria-label="Увеличить: A8 · Список дел">
+<img src="screenshots/guest-07-today.png" alt="A8 · Список дел" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Во вкладке «Сегодня» найдено Алоэ с созданным заданием. Доставка уведомления на заблокированный телефон в этот прогон не входит.</p></article></div>
+</section><section id="b" class="journey">
+<p class="eyebrow">B / АККАУНТ</p><h2>Фото, вид растения и переход ко входу</h2>
+<p class="description">Отдельный сценарий B: новая гостевая коллекция, фотография из медиатеки и Монстера у окна.</p><div class="steps"><article class="step"><h3>B1 · Выбор вида</h3>
+<a class="screen" href="screenshots/account-01-species-picker.png" target="_blank" rel="noopener" aria-label="Увеличить: B1 · Выбор вида">
+<img src="screenshots/account-01-species-picker.png" alt="B1 · Выбор вида" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Выбрана фотография листа; имя введено вручную. В справочнике выбираем Monstera deliciosa.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Выбрать и сохранить</p></div><article class="step"><h3>B2 · Гостевой профиль</h3>
+<a class="screen" href="screenshots/account-02-guest-profile.png" target="_blank" rel="noopener" aria-label="Увеличить: B2 · Гостевой профиль">
+<img src="screenshots/account-02-guest-profile.png" alt="B2 · Гостевой профиль" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>В коллекции уже одно растение. Открываем профиль, чтобы подключить облако.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Войти в аккаунт</p></div><article class="step"><h3>B3 · Ввод email</h3>
+<a class="screen" href="screenshots/account-03-email-entry.png" target="_blank" rel="noopener" aria-label="Увеличить: B3 · Ввод email">
+<img src="screenshots/account-03-email-entry.png" alt="B3 · Ввод email" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Используется синтетический адрес @example.test. Письмо поступает только в локальный Mailpit.</p></article></div>
+<p class="continuation">Продолжение B: ввод email → «Получить код».</p></section><section id="b-5" class="journey">
+<p class="eyebrow">B / АККАУНТ</p><h2>Четыре поля кода и создание аккаунта</h2>
+<p class="description">Проверены четыре отдельных поля, удаление цифры, блокировка повторной отправки и обязательный повтор цифр в выданном коде.</p><div class="steps"><article class="step"><h3>B4 · Код из письма</h3>
+<a class="screen" href="screenshots/otp-four-fields-empty.png" target="_blank" rel="noopener" aria-label="Увеличить: B4 · Код из письма">
+<img src="screenshots/otp-four-fields-empty.png" alt="B4 · Код из письма" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Пустые поля перед вводом. Настоящий код не включён в отчёт.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Ввести неверный код</p></div><article class="step"><h3>B5 · Ошибка кода</h3>
+<a class="screen" href="screenshots/otp-four-fields-error.png" target="_blank" rel="noopener" aria-label="Увеличить: B5 · Ошибка кода">
+<img src="screenshots/otp-four-fields-error.png" alt="B5 · Ошибка кода" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Заведомо неверный тестовый код вызывает понятную ошибку. Затем введён правильный код из Mailpit.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Ввести верный код</p></div><article class="step"><h3>B6 · Аккаунт подключён</h3>
+<a class="screen" href="screenshots/account-04-connected-profile.png" target="_blank" rel="noopener" aria-label="Увеличить: B6 · Аккаунт подключён">
+<img src="screenshots/account-04-connected-profile.png" alt="B6 · Аккаунт подключён" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Аккаунт создан, гостевое растение сохранено и синхронизировано. Для пустого облака отдельного шага объединения нет.</p></article></div>
+<p class="continuation">Продолжение B: «Имя и аватарка».</p></section><section id="b-6" class="journey">
+<p class="eyebrow">B / АККАУНТ</p><h2>Имя, аватарка и сохранённое растение</h2>
+<p class="description">Профиль изменяется после входа. Фото для проверки - изображение из медиатеки симулятора.</p><div class="steps"><article class="step"><h3>B7 · Публичное имя</h3>
+<a class="screen" href="screenshots/social-profile-name.png" target="_blank" rel="noopener" aria-label="Увеличить: B7 · Публичное имя">
+<img src="screenshots/social-profile-name.png" alt="B7 · Публичное имя" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Сохранено имя «Любитель монстер». Оно используется в комментариях.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Выбрать аватарку</p></div><article class="step"><h3>B8 · Аватарка</h3>
+<a class="screen" href="screenshots/social-profile-avatar.png" target="_blank" rel="noopener" aria-label="Увеличить: B8 · Аватарка">
+<img src="screenshots/social-profile-avatar.png" alt="B8 · Аватарка" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Фотография загружена и показана. После снимка проверено удаление аватарки.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Удалить фото; назад</p></div><article class="step"><h3>B9 · Растение после входа</h3>
+<a class="screen" href="screenshots/qr-plant-entry.png" target="_blank" rel="noopener" aria-label="Увеличить: B9 · Растение после входа">
+<img src="screenshots/qr-plant-entry.png" alt="B9 · Растение после входа" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Вернулись к Монстере у окна. Гостевая карточка, фотография и выбранный вид сохранились.</p></article></div>
+<p class="continuation">Продолжение B: открываем «QR-паспорт».</p></section><section id="b-7" class="journey">
+<p class="eyebrow">B / АККАУНТ</p><h2>Публикация по подтверждению и печать</h2>
+<p class="description">До нажатия «Опубликовать паспорт» публичного QR и кнопок отправки нет.</p><div class="steps"><article class="step"><h3>B10 · До публикации</h3>
+<a class="screen" href="screenshots/qr-before-publish.png" target="_blank" rel="noopener" aria-label="Увеличить: B10 · До публикации">
+<img src="screenshots/qr-before-publish.png" alt="B10 · До публикации" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Пользователь подтверждает публикацию без фото. Затем проверено копирование ссылки. Для выбора фото см. отдельный результат G.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Опубликовать; Бирка</p></div><article class="step"><h3>B11 · Настройка бирки</h3>
+<a class="screen" href="screenshots/qr-label-settings.png" target="_blank" rel="noopener" aria-label="Увеличить: B11 · Настройка бирки">
+<img src="screenshots/qr-label-settings.png" alt="B11 · Настройка бирки" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Открыт экран «Бирки на A4». С него создаётся документ для просмотра.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Создать PDF</p></div><article class="step"><h3>B12 · Предпросмотр A4</h3>
+<a class="screen" href="screenshots/qr-label-pdf.png" target="_blank" rel="noopener" aria-label="Увеличить: B12 · Предпросмотр A4">
+<img src="screenshots/qr-label-pdf.png" alt="B12 · Предпросмотр A4" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Настоящий предпросмотр PDF. Названия растения расположены под QR; документ можно сохранить или отправить.</p></article></div>
+<p class="continuation">Продолжение B: закрываем предпросмотр и настройки печати → возвращаемся к QR.</p></section><section id="b-8" class="journey">
+<p class="eyebrow">B / АККАУНТ</p><h2>Из приложения на публичную веб-страницу</h2>
+<p class="description">Тот же опубликованный паспорт открыт в Safari без отдельного входа на веб-странице.</p><div class="steps"><article class="step"><h3>B13 · Готовый QR-паспорт</h3>
+<a class="screen" href="screenshots/qr-published-passport.png" target="_blank" rel="noopener" aria-label="Увеличить: B13 · Готовый QR-паспорт">
+<img src="screenshots/qr-published-passport.png" alt="B13 · Готовый QR-паспорт" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>После возврата видны QR, подписи и опубликованная ссылка.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Посмотреть веб-страницу</p></div><article class="step"><h3>B14 · Страница растения</h3>
+<a class="screen" href="screenshots/web-01-public-plant.png" target="_blank" rel="noopener" aria-label="Увеличить: B14 · Страница растения">
+<img src="screenshots/web-01-public-plant.png" alt="B14 · Страница растения" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Страница загружена по ссылке. В этом сценарии фото не разрешались, поэтому показана заглушка.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Прокрутить вниз</p></div><article class="step"><h3>B15 · Промоблок приложения</h3>
+<a class="screen" href="screenshots/web-02-app-promotion.png" target="_blank" rel="noopener" aria-label="Увеличить: B15 · Промоблок приложения">
+<img src="screenshots/web-02-app-promotion.png" alt="B15 · Промоблок приложения" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Внизу страницы показано предложение пользоваться Фитокодом. Открытие страницы проверено; установка из магазина не выполнялась.</p></article></div>
+<p class="continuation">Продолжение B: возврат в приложение → закрытие QR-паспорта → комментарии.</p></section><section id="b-9" class="journey">
+<p class="eyebrow">B / АККАУНТ</p><h2>Комментарии в общей ленте растения</h2>
+<p class="description">Второй синтетический пользователь оставил комментарий через API. Ответ владельца отправлен из интерфейса приложения.</p><div class="steps"><article class="step"><h3>B16 · Два участника</h3>
+<a class="screen" href="screenshots/social-plant-comments-two-users.png" target="_blank" rel="noopener" aria-label="Увеличить: B16 · Два участника">
+<img src="screenshots/social-plant-comments-two-users.png" alt="B16 · Два участника" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Комментарий «Какие красивые листья!» и ответ владельца отображаются у растения. Лента общая для растения.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Назад в коллекцию</p></div><article class="step"><h3>B17 · Коллекция</h3>
+<a class="screen" href="screenshots/qr-collection-print-entry.png" target="_blank" rel="noopener" aria-label="Увеличить: B17 · Коллекция">
+<img src="screenshots/qr-collection-print-entry.png" alt="B17 · Коллекция" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Растение остаётся в коллекции. Проверено открытие и закрытие экрана общей печати бирок.</p></article></div>
+<p class="continuation">Завершение B на следующей странице: профиль → удаление тестового аккаунта.</p></section><section id="b-10" class="journey">
+<p class="eyebrow">B / АККАУНТ</p><h2>Удаление аккаунта и очистка тестовых данных</h2>
+<p class="description">Последний шаг сценария B. Удаляется только синтетический локальный аккаунт.</p><div class="steps"><article class="step"><h3>B18 · Подтверждение удаления</h3>
+<a class="screen" href="screenshots/account-journey-delete-confirmation.png" target="_blank" rel="noopener" aria-label="Увеличить: B18 · Подтверждение удаления">
+<img src="screenshots/account-journey-delete-confirmation.png" alt="B18 · Подтверждение удаления" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Профиль предупреждает об удалении растений, фото и истории и отключении паспортов.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Подтвердить удаление</p></div><article class="step"><h3>B19 · Возврат в гостевой режим</h3>
+<a class="screen" href="screenshots/account-journey-delete-completed.png" target="_blank" rel="noopener" aria-label="Увеличить: B19 · Возврат в гостевой режим">
+<img src="screenshots/account-journey-delete-completed.png" alt="B19 · Возврат в гостевой режим" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>После штатного удаления снова доступен вход в аккаунт. Остаточные тестовые аккаунты проверены отдельно в локальной БД.</p></article></div>
+</section><section id="c" class="journey">
+<p class="eyebrow">C / QWEN</p><h2>Фотография и название → запрос ухода</h2>
+<p class="description">Новый аккаунт и новая коллекция. Локальный API вызывает настоящий Qwen на сервере в Нидерландах через закрытый SSH-туннель.</p><div class="steps"><article class="step"><h3>C1 · Фотография выбрана</h3>
+<a class="screen" href="screenshots/qwen-01-photo-selected.png" target="_blank" rel="noopener" aria-label="Увеличить: C1 · Фотография выбрана">
+<img src="screenshots/qwen-01-photo-selected.png" alt="C1 · Фотография выбрана" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>После входа открыто новое растение и выбрана фотография листа. Это не автоматическое распознавание фото.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Ввести название</p></div><article class="step"><h3>C2 · Название растения</h3>
+<a class="screen" href="screenshots/qwen-02-name.png" target="_blank" rel="noopener" aria-label="Увеличить: C2 · Название растения">
+<img src="screenshots/qwen-02-name.png" alt="C2 · Название растения" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Введено «Монстера». Ботанический вид сопоставляется с локальным каталогом.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Подобрать уход</p></div><article class="step"><h3>C3 · Ожидание ответа</h3>
+<a class="screen" href="screenshots/qwen-03-request-in-progress.png" target="_blank" rel="noopener" aria-label="Увеличить: C3 · Ожидание ответа">
+<img src="screenshots/qwen-03-request-in-progress.png" alt="C3 · Ожидание ответа" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Нажатие кнопки запускает запрос. Черновик заполняется после ответа API, без автоматического сохранения.</p></article></div>
+<p class="continuation">Продолжение C: дожидаемся ответа Qwen.</p></section><section id="c-12" class="journey">
+<p class="eyebrow">C / QWEN</p><h2>Редактируемые рекомендации с источником</h2>
+<p class="description">Модель оформляет проверенные сведения каталога. Это ограниченный пилот, а не свободное придумывание условий ухода.</p><div class="steps"><article class="step"><h3>C4 · Свет и полив</h3>
+<a class="screen" href="screenshots/qwen-04-autofilled-light-water.png" target="_blank" rel="noopener" aria-label="Увеличить: C4 · Свет и полив">
+<img src="screenshots/qwen-04-autofilled-light-water.png" alt="C4 · Свет и полив" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Поля освещения и полива заполнены ответом. Содержимое можно изменить вручную.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Прокрутить ниже</p></div><article class="step"><h3>C5 · Температура и источник</h3>
+<a class="screen" href="screenshots/qwen-05-autofilled-temperature-source.png" target="_blank" rel="noopener" aria-label="Увеличить: C5 · Температура и источник">
+<img src="screenshots/qwen-05-autofilled-temperature-source.png" alt="C5 · Температура и источник" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Проверено значение с нижней границей 16 °C. После снимка добавлен собственный текст «Мой режим.».</p></article></div>
+<p class="continuation">Продолжение C: редактируем температуру → «Сохранить».</p></section><section id="c-13" class="journey">
+<p class="eyebrow">C / QWEN</p><h2>Сохранение ухода и повторное открытие</h2>
+<p class="description">Проверяется сохранность ответа и ручного дополнения, а не только появление результата на экране.</p><div class="steps"><article class="step"><h3>C6 · Уход в карточке</h3>
+<a class="screen" href="screenshots/qwen-06-saved-care-profile.png" target="_blank" rel="noopener" aria-label="Увеличить: C6 · Уход в карточке">
+<img src="screenshots/qwen-06-saved-care-profile.png" alt="C6 · Уход в карточке" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Карточка показывает сохранённые рекомендации и текст «Мой режим.».</p></article><div class="transition"><span aria-hidden="true">→</span><p>Действия → Изменить</p></div><article class="step"><h3>C7 · Повторное редактирование</h3>
+<a class="screen" href="screenshots/qwen-07-reopened-editable-profile.png" target="_blank" rel="noopener" aria-label="Увеличить: C7 · Повторное редактирование">
+<img src="screenshots/qwen-07-reopened-editable-profile.png" alt="C7 · Повторное редактирование" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Редактор повторно открыт. Ручное дополнение осталось в поле температуры. Затем тестовый аккаунт удалён.</p></article></div>
+</section><section id="d" class="journey">
+<p class="eyebrow">D / ЧУЖОЕ РАСТЕНИЕ</p><h2>Публичная ссылка открывает паспорт в приложении</h2>
+<p class="description">Отдельный гость открывает ссылку на растение другого синтетического пользователя. Это отдельная сессия D.</p><div class="steps"><article class="step"><h3>D1 · Чужой паспорт</h3>
+<a class="screen" href="screenshots/social-foreign-passport-photo.png" target="_blank" rel="noopener" aria-label="Увеличить: D1 · Чужой паспорт">
+<img src="screenshots/social-foreign-passport-photo.png" alt="D1 · Чужой паспорт" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Показаны имя, разрешённое фото и публичный профиль владельца. Закрытая заметка отсутствует.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Прокрутить к комментариям</p></div><article class="step"><h3>D2 · Чтение без входа</h3>
+<a class="screen" href="screenshots/social-foreign-passport-comments-guest.png" target="_blank" rel="noopener" aria-label="Увеличить: D2 · Чтение без входа">
+<img src="screenshots/social-foreign-passport-comments-guest.png" alt="D2 · Чтение без входа" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Комментарий владельца виден гостю. Нажатие «Войти» открывает форму email; отмена возвращает к ленте.</p></article></div>
+</section><section id="e" class="journey">
+<p class="eyebrow">E / ЯЗЫК</p><h2>English выбирается в профиле</h2>
+<p class="description">Новый языковой сценарий. Язык меняется сразу, без выхода из приложения.</p><div class="steps"><article class="step"><h3>E1 · Выбор English</h3>
+<a class="screen" href="screenshots/english-01-language-picker.png" target="_blank" rel="noopener" aria-label="Увеличить: E1 · Выбор English">
+<img src="screenshots/english-01-language-picker.png" alt="E1 · Выбор English" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Профиль → Язык приложения → English. Заголовок меняется сразу.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Назад в профиль</p></div><article class="step"><h3>E2 · Английский профиль</h3>
+<a class="screen" href="screenshots/english-02-profile.png" target="_blank" rel="noopener" aria-label="Увеличить: E2 · Английский профиль">
+<img src="screenshots/english-02-profile.png" alt="E2 · Английский профиль" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Подписи настроек и нижней навигации показаны на английском.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Sign in</p></div><article class="step"><h3>E3 · Экран входа</h3>
+<a class="screen" href="screenshots/english-03-login.png" target="_blank" rel="noopener" aria-label="Увеличить: E3 · Экран входа">
+<img src="screenshots/english-03-login.png" alt="E3 · Экран входа" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Форма входа тоже переведена. Тест отменяет вход и проверяет вкладки Today и Scan.</p></article></div>
+<p class="continuation">Продолжение E: отменяем вход → проверяем вкладки → открываем My plants.</p></section><section id="e-16" class="journey">
+<p class="eyebrow">E / ЯЗЫК</p><h2>Коллекция, редактор и уход на английском</h2>
+<p class="description">Продолжение той же языковой сессии E. Собственное имя растения остаётся на русском.</p><div class="steps"><article class="step"><h3>E4 · My plants</h3>
+<a class="screen" href="screenshots/english-04-collection.png" target="_blank" rel="noopener" aria-label="Увеличить: E4 · My plants">
+<img src="screenshots/english-04-collection.png" alt="E4 · My plants" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Пустая коллекция показывает английские тексты.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Add plant</p></div><article class="step"><h3>E5 · Название и вид</h3>
+<a class="screen" href="screenshots/english-05-plant-editor.png" target="_blank" rel="noopener" aria-label="Увеличить: E5 · Название и вид">
+<img src="screenshots/english-05-plant-editor.png" alt="E5 · Название и вид" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Введено «Монстера у окна», выбран Monstera deliciosa. Пользовательский текст не переводится.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Save; Add plan</p></div><article class="step"><h3>E6 · Care plan</h3>
+<a class="screen" href="screenshots/english-06-care-plan.png" target="_blank" rel="noopener" aria-label="Увеличить: E6 · Care plan">
+<img src="screenshots/english-06-care-plan.png" alt="E6 · Care plan" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Редактор ухода переведён; отдельно проверено значение интервала 7 дней.</p></article></div>
+<p class="continuation">Продолжение E: Cancel → Reference information в карточке растения.</p></section><section id="e-17" class="journey">
+<p class="eyebrow">E / ЯЗЫК</p><h2>Справка и запоминание языка</h2>
+<p class="description">Проверены английские сведения справочника и смена RU → EN → RU с сохранением имени растения.</p><div class="steps"><article class="step"><h3>E7 · Reference information</h3>
+<a class="screen" href="screenshots/english-07-reference.png" target="_blank" rel="noopener" aria-label="Увеличить: E7 · Reference information">
+<img src="screenshots/english-07-reference.png" alt="E7 · Reference information" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Открыта справочная информация. Рекомендации переведены, ботанические названия и числовые условия сохранены.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Профиль; RU; EN; перезапуск</p></div><article class="step"><h3>E8 · Язык запомнен</h3>
+<a class="screen" href="screenshots/english-08-persisted-language.png" target="_blank" rel="noopener" aria-label="Увеличить: E8 · Язык запомнен">
+<img src="screenshots/english-08-persisted-language.png" alt="E8 · Язык запомнен" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>После нового запуска English остаётся выбранным. В конце теста возвращён русский язык.</p></article></div>
+</section><section id="f" class="journey">
+<p class="eyebrow">F / ДОПОЛНИТЕЛЬНО</p><h2>Профиль гостя и вход в сканер</h2>
+<p class="description">Отдельный гостевой сценарий F. Между снимками открыта и отменена форма входа.</p><div class="steps"><article class="step"><h3>F1 · Гостевой профиль</h3>
+<a class="screen" href="screenshots/guest-08-profile.png" target="_blank" rel="noopener" aria-label="Увеличить: F1 · Гостевой профиль">
+<img src="screenshots/guest-08-profile.png" alt="F1 · Гостевой профиль" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Доступны вход, настройки, язык и операции с локальной коллекцией.</p></article><div class="transition"><span aria-hidden="true">→</span><p>Вход; отмена; Сканировать</p></div><article class="step"><h3>F2 · Экран сканера</h3>
+<a class="screen" href="screenshots/guest-09-scanner.png" target="_blank" rel="noopener" aria-label="Увеличить: F2 · Экран сканера">
+<img src="screenshots/guest-09-scanner.png" alt="F2 · Экран сканера" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Проверен вход на экран сканирования и наличие кнопки камеры. Физическое считывание напечатанного QR здесь не проверялось.</p></article></div>
+</section><section id="f-19" class="journey">
+<p class="eyebrow">F / ДОПОЛНИТЕЛЬНО</p><h2>Группы и расписание по дням недели</h2>
+<p class="description">Отдельный тест форм: созданы группы Дом, Балкон и Дача. Проверены изменение растения, выбор группы и повторное открытие расписания.</p><div class="steps"><article class="step"><h3>F3 · Выбор группы</h3>
+<a class="screen" href="screenshots/02-group-menu.png" target="_blank" rel="noopener" aria-label="Увеличить: F3 · Выбор группы">
+<img src="screenshots/02-group-menu.png" alt="F3 · Выбор группы" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>В редакторе выбирается «Дом». После сохранения проверены имя, место и группа; затем группа изменена на «Балкон».</p></article><div class="transition"><span aria-hidden="true">→</span><p>Сохранить; изменить; план</p></div><article class="step"><h3>F4 · Дни недели</h3>
+<a class="screen" href="screenshots/05-weekly-rule.png" target="_blank" rel="noopener" aria-label="Увеличить: F4 · Дни недели">
+<img src="screenshots/05-weekly-rule.png" alt="F4 · Дни недели" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>Настроены дни недели. После сохранения и нового открытия выбранные и снятые дни сохранились.</p></article></div>
+</section><section id="g" class="journey unresolved">
+<p class="eyebrow">G / НЕПРОЙДЕННЫЙ ШАГ</p><h2>Выбор обложки: требуется ручная перепроверка</h2>
+<p class="description">Отдельная дополнительная ветка, не продолжение аккаунта B. Автосценарий с явным выбором фотографии не прошёл.</p><div class="steps"><article class="step"><h3>G1 · Фото не осталось выбранным</h3>
+<a class="screen" href="screenshots/photo-consent-failure.png" target="_blank" rel="noopener" aria-label="Увеличить: G1 · Фото не осталось выбранным">
+<img src="screenshots/photo-consent-failure.png" alt="G1 · Фото не осталось выбранным" width="1206" height="2622" loading="lazy" decoding="async"></a>
+<p>После нажатия на «Фото 1» переключатель остался выключен, а «Опубликовать паспорт» - недоступна. Повторы дали тот же результат. Ручная перепроверка недоступна из-за блокировки Mac. Исправление не подтверждено; пробные изменения интерфейса отменены.</p></article></div>
+</section><section class="results" id="results"><p class="eyebrow">Результаты и ограничения</p><h2>Что проверено</h2><article><h3>Основной набор проверок</h3><p>87 backend-тестов (20 unit и 67 integration на SQL Server), 38 native core/integration и 9 основных UI-сценариев прошли. Два native-теста явно пропущены: аппаратная доставка уведомлений и отдельная съёмка для магазина. Дополнительный автосценарий выбора обложки не прошёл (раздел G). Контракт, 950 английских строк и Release-сборка без подписи проверены.</p></article><article><h3>Среда и сохранность данных</h3><p>iPhone 17, iOS 26.5, приложение 1.0.0 (7), продуктовый код main / effc938. Локальные API, SQL Server, Mailpit и S3. Guest UI использует изолированную тестовую коллекцию; сохранность между клиентами, фото, уход и конфликты отдельно проверены настоящей SQL-синхронизацией.</p></article><article><h3>Qwen вызван на самом деле</h3><p>qwen3.5:2b-q4_K_M на сервере в Нидерландах, доступ через закрытый SSH-туннель. Между снимками ожидания и заполненных полей прошло около 20 секунд. Модель оформляет проверенные условия каталога; фото и личные заметки в модель не отправляются. Пилот включён только в локальном API.</p></article><article><h3>Очистка и журналы</h3><p>Синтетические аккаунты удаляются штатно после сценариев. Контрольный запрос к локальной БД проверяет отсутствие оставшихся QA-аккаунтов. Неожиданных исключений в журнале локального API не обнаружено. Публичные ссылки из отчёта после удаления тестовых аккаунтов больше не действуют.</p></article><article><h3>Что требует отдельного прохода</h3><p>Физический телефон и камера, считывание напечатанного QR, доставка уведомлений, внешнее письмо и пересылка через мессенджер, полный VoiceOver. Для Safari проверены экран и переход; консоль и сетевой журнал отдельно не проверялись. Полный системный файловый диалог импорта/экспорта в маршрут не входит; формат резервной копии проверяется core-тестами. Ручная проверка выбора обложки также не выполнена: Mac заблокирован; причина сбоя автоматизации не установлена.</p></article><article><h3>Релиз не выполнялся</h3><p>Это проверка локальной сборки с тестовыми данными. TestFlight и App Store этим прогоном не обновлялись, production-настройки Qwen и рабочие данные не менялись.</p></article>
+<details id="all-screenshots"><summary>Все 58 оригинальных PNG по отдельности</summary><ul class="all-images"><li><a href="screenshots/account-journey-delete-completed.png">account-journey-delete-completed.png</a></li><li><a href="screenshots/account-journey-delete-confirmation.png">account-journey-delete-confirmation.png</a></li><li><a href="screenshots/qr-collection-print-entry.png">qr-collection-print-entry.png</a></li><li><a href="screenshots/social-plant-comments-two-users.png">social-plant-comments-two-users.png</a></li><li><a href="screenshots/web-02-app-promotion.png">web-02-app-promotion.png</a></li><li><a href="screenshots/web-01-public-plant.png">web-01-public-plant.png</a></li><li><a href="screenshots/qr-published-passport.png">qr-published-passport.png</a></li><li><a href="screenshots/qr-label-pdf.png">qr-label-pdf.png</a></li><li><a href="screenshots/qr-label-settings.png">qr-label-settings.png</a></li><li><a href="screenshots/qr-before-publish.png">qr-before-publish.png</a></li><li><a href="screenshots/qr-plant-entry.png">qr-plant-entry.png</a></li><li><a href="screenshots/social-profile-avatar.png">social-profile-avatar.png</a></li><li><a href="screenshots/social-photo-picker.png">social-photo-picker.png</a></li><li><a href="screenshots/social-profile-name.png">social-profile-name.png</a></li><li><a href="screenshots/account-04-connected-profile.png">account-04-connected-profile.png</a></li><li><a href="screenshots/otp-four-fields-error.png">otp-four-fields-error.png</a></li><li><a href="screenshots/otp-four-fields-empty.png">otp-four-fields-empty.png</a></li><li><a href="screenshots/account-03-email-entry.png">account-03-email-entry.png</a></li><li><a href="screenshots/account-02-guest-profile.png">account-02-guest-profile.png</a></li><li><a href="screenshots/account-01-species-picker.png">account-01-species-picker.png</a></li><li><a href="screenshots/qr-collection-empty.png">qr-collection-empty.png</a></li><li><a href="screenshots/social-foreign-passport-comments-guest.png">social-foreign-passport-comments-guest.png</a></li><li><a href="screenshots/social-foreign-passport-photo.png">social-foreign-passport-photo.png</a></li><li><a href="screenshots/qwen-journey-delete-completed.png">qwen-journey-delete-completed.png</a></li><li><a href="screenshots/qwen-journey-delete-confirmation.png">qwen-journey-delete-confirmation.png</a></li><li><a href="screenshots/qwen-07-reopened-editable-profile.png">qwen-07-reopened-editable-profile.png</a></li><li><a href="screenshots/qwen-06-saved-care-profile.png">qwen-06-saved-care-profile.png</a></li><li><a href="screenshots/qwen-05-autofilled-temperature-source.png">qwen-05-autofilled-temperature-source.png</a></li><li><a href="screenshots/qwen-04-autofilled-light-water.png">qwen-04-autofilled-light-water.png</a></li><li><a href="screenshots/qwen-03-request-in-progress.png">qwen-03-request-in-progress.png</a></li><li><a href="screenshots/qwen-02-name.png">qwen-02-name.png</a></li><li><a href="screenshots/qwen-01-photo-selected.png">qwen-01-photo-selected.png</a></li><li><a href="screenshots/05-weekly-rule.png">05-weekly-rule.png</a></li><li><a href="screenshots/04-edit-details.png">04-edit-details.png</a></li><li><a href="screenshots/03-edit-plant.png">03-edit-plant.png</a></li><li><a href="screenshots/02-group-menu.png">02-group-menu.png</a></li><li><a href="screenshots/01-new-plant.png">01-new-plant.png</a></li><li><a href="screenshots/guest-09-scanner.png">guest-09-scanner.png</a></li><li><a href="screenshots/guest-08-profile.png">guest-08-profile.png</a></li><li><a href="screenshots/guest-07-today.png">guest-07-today.png</a></li><li><a href="screenshots/guest-06-saved-plan.png">guest-06-saved-plan.png</a></li><li><a href="screenshots/guest-05-care-plan.png">guest-05-care-plan.png</a></li><li><a href="screenshots/plant-detail.png">plant-detail.png</a></li><li><a href="screenshots/guest-04-watered.png">guest-04-watered.png</a></li><li><a href="screenshots/guest-03-plant-card.png">guest-03-plant-card.png</a></li><li><a href="screenshots/guest-02-plant-name.png">guest-02-plant-name.png</a></li><li><a href="screenshots/guest-01-empty-collection.png">guest-01-empty-collection.png</a></li><li><a href="screenshots/english-08-persisted-language.png">english-08-persisted-language.png</a></li><li><a href="screenshots/english-07-reference.png">english-07-reference.png</a></li><li><a href="screenshots/english-06-care-plan.png">english-06-care-plan.png</a></li><li><a href="screenshots/english-05-plant-editor.png">english-05-plant-editor.png</a></li><li><a href="screenshots/english-04-collection.png">english-04-collection.png</a></li><li><a href="screenshots/english-03-login.png">english-03-login.png</a></li><li><a href="screenshots/english-02-profile.png">english-02-profile.png</a></li><li><a href="screenshots/english-01-language-picker.png">english-01-language-picker.png</a></li><li><a href="screenshots/square-tabs-plant.png">square-tabs-plant.png</a></li><li><a href="screenshots/square-tabs-accessibility.png">square-tabs-accessibility.png</a></li><li><a href="screenshots/photo-consent-failure.png">photo-consent-failure.png</a></li></ul></details>
+<div class="actions"><a class="button" href="downloads/Fitocode-client-journey-2026-10-25.pdf" download>Скачать исходный PDF</a><a class="button secondary" href="https://github.com/davidishe/fitocode-qa-report/releases/download/qa-2026-10-25/Fitocode-client-journey-2026-10-25.zip">Скачать полный комплект</a></div></section></main>
+<footer class="shell"><p>На экранах — синтетические аккаунты и тестовые данные. Они удалены; ссылки QR-паспортов со снимков больше не действуют. Для основного сценария B фотографии не публиковались: заглушка веб-страницы ожидаема. Непройденный выбор фото показан отдельно в G.</p>
+<p>Публикуется существующий отчёт. Приложение, TestFlight и рабочий API этим размещением не обновляются. <a href="https://github.com/davidishe/fitocode-qa-report">Репозиторий отчёта</a> · <a href="manifest.json">Состав и контрольные суммы</a></p></footer></body></html>

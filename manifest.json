@@ -1,0 +1,253 @@
+{
+  "publicationId": "fitocode-journey-20261025-published-20261031-v1",
+  "reportDate": "2026-10-25",
+  "publishedDate": "2026-10-31",
+  "pdf": {
+    "path": "downloads/Fitocode-client-journey-2026-10-25.pdf",
+    "sha256": "2ed7037dbe37430494fe25d12a6d1ea0a32d11c74dd6462b2674ea630b177c41",
+    "bytes": 28651395
+  },
+  "archive": {
+    "url": "https://github.com/davidishe/fitocode-qa-report/releases/download/qa-2026-10-25/Fitocode-client-journey-2026-10-25.zip",
+    "sha256": "a71d84b2c00d6afbac32fe517b3052c4e499f07bd5f112c3d6d177fa77392363",
+    "bytes": 54460740
+  },
+  "screenshots": [
+    {
+      "path": "screenshots/account-journey-delete-completed.png",
+      "sha256": "87504776e3a8064d749a84635e81460b0910a79f3bb4c1bdfee714ec17dee7fe"
+    },
+    {
+      "path": "screenshots/account-journey-delete-confirmation.png",
+      "sha256": "ed0a6e0183be171c4ab2a313805895cb22a9ec76d8c94d0179e992b313f6de50"
+    },
+    {
+      "path": "screenshots/qr-collection-print-entry.png",
+      "sha256": "1f8245db1ded845a37e96c680b48621955f685c03c2d250b9318be742125fb5e"
+    },
+    {
+      "path": "screenshots/social-plant-comments-two-users.png",
+      "sha256": "c21ba4f0b5e81ab9fb34d14dd56f8fab058398c5f0a6724cb9db257882a15a77"
+    },
+    {
+      "path": "screenshots/web-02-app-promotion.png",
+      "sha256": "c92f1462fe07e15bac46bc36389b44f1abe5c981f88723059155693194d962a4"
+    },
+    {
+      "path": "screenshots/web-01-public-plant.png",
+      "sha256": "a4f781fc8fcf7689bce556e8f80daf201640d68489d9a51bc2e8380685772f90"
+    },
+    {
+      "path": "screenshots/qr-published-passport.png",
+      "sha256": "6a3a65635a433f1cdbf0a733a3697a846fb50eb19c4189aec86dda18985b3219"
+    },
+    {
+      "path": "screenshots/qr-label-pdf.png",
+      "sha256": "9bdd5a9945e5d146c8d6ffe575630e8e974b29228d72b2494bf49b47cc97c9a0"
+    },
+    {
+      "path": "screenshots/qr-label-settings.png",
+      "sha256": "e87af8818b371210d1fd5fbe854d9b24d295f94d890672b7ad942515defaf8de"
+    },
+    {
+      "path": "screenshots/qr-before-publish.png",
+      "sha256": "e3fdccd0add735486e0ab424024cc62905579d831461affc824450371ca76e88"
+    },
+    {
+      "path": "screenshots/qr-plant-entry.png",
+      "sha256": "70b7465b33943647ae43033bea347836fc517c8f904c1f0f43fac6fec84b6790"
+    },
+    {
+      "path": "screenshots/social-profile-avatar.png",
+      "sha256": "dbaaceef7313c15ad151add3c99f6ff5614235e7c4f93847c313e3ff5dd17e59"
+    },
+    {
+      "path": "screenshots/social-photo-picker.png",
+      "sha256": "533461ebaa00c65e0c50b03b79d2102121994746ea092688fddaa48a6e8d5311"
+    },
+    {
+      "path": "screenshots/social-profile-name.png",
+      "sha256": "67394f5892c6a471e2136d8ddc99353e0efea34aa21d7941210cdfe190e165d5"
+    },
+    {
+      "path": "screenshots/account-04-connected-profile.png",
+      "sha256": "00d3ebe1641651b11d901186c81e841ca71e5b8fd6db2bc60439f124058d0fa6"
+    },
+    {
+      "path": "screenshots/otp-four-fields-error.png",
+      "sha256": "d6d060c5b72257f427b40297a68216f5cf56ed959668e65c4c3ce52aefdd1a22"
+    },
+    {
+      "path": "screenshots/otp-four-fields-empty.png",
+      "sha256": "48a42eda2172e37940cba610882ef601dd3e5c02d8bebd9903ebeba3f46ee0da"
+    },
+    {
+      "path": "screenshots/account-03-email-entry.png",
+      "sha256": "bff6a0e22813ed9c3f65c79e3d04859637a4a916db3597d48df3a041639110e1"
+    },
+    {
+      "path": "screenshots/account-02-guest-profile.png",
+      "sha256": "84222561ed38ad719cd364e3302cfaab325db4f068d344f7223299abce06e0ae"
+    },
+    {
+      "path": "screenshots/account-01-species-picker.png",
+      "sha256": "82617698e6e65b8543ee5d943917d068f03ca980fc0024f0523bccb6a8646941"
+    },
+    {
+      "path": "screenshots/qr-collection-empty.png",
+      "sha256": "7a951fa6a90b3996cb3c25502ccd980e3f309728ae8f10ea2d309fb35ff05cd0"
+    },
+    {
+      "path": "screenshots/social-foreign-passport-comments-guest.png",
+      "sha256": "d19c9bcf9fe77512b2115c7d728d97e83a8c827bf92fde584c33f600d8bda151"
+    },
+    {
+      "path": "screenshots/social-foreign-passport-photo.png",
+      "sha256": "0fdfbb83a33f9e395de2563302da49ce84519e145f34391bef2d0b9b9a65d6ed"
+    },
+    {
+      "path": "screenshots/qwen-journey-delete-completed.png",
+      "sha256": "872544eb16a1b209d3ce25af615ccd52a68f135084f738687ccb4bdd292ac9c4"
+    },
+    {
+      "path": "screenshots/qwen-journey-delete-confirmation.png",
+      "sha256": "37662b62c314ff5c1048dd583faa41d31de0416a9835055d225689be5dad82a8"
+    },
+    {
+      "path": "screenshots/qwen-07-reopened-editable-profile.png",
+      "sha256": "9ba5188b66cf7dd2afcf1284f89c9d4cbdb2f07118b0cf8a6a7400839f80b539"
+    },
+    {
+      "path": "screenshots/qwen-06-saved-care-profile.png",
+      "sha256": "b3b32e0d6d0986a9a4345cb7464815f762e6bb7ba1d2183b74b3843fbbd70480"
+    },
+    {
+      "path": "screenshots/qwen-05-autofilled-temperature-source.png",
+      "sha256": "38554a5dd2be31c3078a2871548598a3019c3abbbe8695288ff192ded329be42"
+    },
+    {
+      "path": "screenshots/qwen-04-autofilled-light-water.png",
+      "sha256": "e7a528f3aef636db15a2dd01431fa781f2141aa466749f1ab8238340f5783369"
+    },
+    {
+      "path": "screenshots/qwen-03-request-in-progress.png",
+      "sha256": "80c456c81fd099978fe900dd188c512280b604b7da4f7405629f179f0699d252"
+    },
+    {
+      "path": "screenshots/qwen-02-name.png",
+      "sha256": "e333e8227f2a096b5862d02f3231e9fb50abc7155f301b68e256baa8dd7ac252"
+    },
+    {
+      "path": "screenshots/qwen-01-photo-selected.png",
+      "sha256": "aeeb4a59ef73aa9c63e6d51c1859d1d6b78c7f5affec6135eae58a52d38508cd"
+    },
+    {
+      "path": "screenshots/05-weekly-rule.png",
+      "sha256": "3281177f112b419701a179e823b1faf659468e35a7eb05e4f64a7b46a9469120"
+    },
+    {
+      "path": "screenshots/04-edit-details.png",
+      "sha256": "90252e0d6c259a042d5abf0f24b0fc2d56f78866638bd1736574dbe72277f650"
+    },
+    {
+      "path": "screenshots/03-edit-plant.png",
+      "sha256": "d272ee55d7e38835ffe86492e6f110ec326a570216ef7016329a90c0725dd446"
+    },
+    {
+      "path": "screenshots/02-group-menu.png",
+      "sha256": "a98770a6da1091edde5e5d364c99b08e2f91284623c44d872d83c2b0ea23a0b8"
+    },
+    {
+      "path": "screenshots/01-new-plant.png",
+      "sha256": "f32f8e99b920ca078ee3dffd0f98dbcf8b18340d37312a750c4d93e30c467448"
+    },
+    {
+      "path": "screenshots/guest-09-scanner.png",
+      "sha256": "ba1fee246dd92b4a03c935c3de0ccec46436b37515625171333ba614a6270a52"
+    },
+    {
+      "path": "screenshots/guest-08-profile.png",
+      "sha256": "96491d303d6f04c376338121434b010cedec1391dcffc071910c15967da0974d"
+    },
+    {
+      "path": "screenshots/guest-07-today.png",
+      "sha256": "4ba7094fe66242f69af982dd1a20f01153476b97134adc5111e8aa09ed2c06bc"
+    },
+    {
+      "path": "screenshots/guest-06-saved-plan.png",
+      "sha256": "35ccd8f9ed94a2617b0b9177ad37e7042942bbc9b8393a7593047690c6e08c2c"
+    },
+    {
+      "path": "screenshots/guest-05-care-plan.png",
+      "sha256": "fcc457b7c58930f62ccdd57c92cdab7b40bc8777f4b9e0c686d7d57ca2c8ad5c"
+    },
+    {
+      "path": "screenshots/plant-detail.png",
+      "sha256": "18a7e7a08a8da30beef1f5dce01fe42ed305a151bc2d92eb1a0e54c422eafd8e"
+    },
+    {
+      "path": "screenshots/guest-04-watered.png",
+      "sha256": "d32a4d27316b5a92c11ef31ef1b2ead866e65c47336ca273f35888488d4e9484"
+    },
+    {
+      "path": "screenshots/guest-03-plant-card.png",
+      "sha256": "18a7e7a08a8da30beef1f5dce01fe42ed305a151bc2d92eb1a0e54c422eafd8e"
+    },
+    {
+      "path": "screenshots/guest-02-plant-name.png",
+      "sha256": "b93b126777c30019415046c1cd4b8263efc73ea29e7585afc6d4cc6f42f9fdd8"
+    },
+    {
+      "path": "screenshots/guest-01-empty-collection.png",
+      "sha256": "fdad40832f408d726f17fa5a8899926de1a1118f4b512a3cda9b129ea4013c77"
+    },
+    {
+      "path": "screenshots/english-08-persisted-language.png",
+      "sha256": "537ca572ccf71c9a94a5f804d05b0f20c651945a0fa4865ccf0778bda9d27af1"
+    },
+    {
+      "path": "screenshots/english-07-reference.png",
+      "sha256": "b312776e4db5ef92da16c7e542466c96b8a92d33a46e3afe026feaae9951ec96"
+    },
+    {
+      "path": "screenshots/english-06-care-plan.png",
+      "sha256": "eb86173460d5afd72d66158602884d2caf96f3429244cd3018dfd2dfc48778f5"
+    },
+    {
+      "path": "screenshots/english-05-plant-editor.png",
+      "sha256": "f5b965d808db9dd644158603286767c2e59fd98bb3385b3c58f5b38bd9e0d834"
+    },
+    {
+      "path": "screenshots/english-04-collection.png",
+      "sha256": "0d5f3f6545feba4d8e3f0aa5f34475cf02c16bd3c43775faa0be1c2b8463baf8"
+    },
+    {
+      "path": "screenshots/english-03-login.png",
+      "sha256": "fb9583db89d15c3f63c310c62e1298c5f980e529c152555ccd138451588bd8de"
+    },
+    {
+      "path": "screenshots/english-02-profile.png",
+      "sha256": "ecae713633848b7855e9fea00ae79b938fb6920b2ede304bbc9bc480828748d4"
+    },
+    {
+      "path": "screenshots/english-01-language-picker.png",
+      "sha256": "dc9a1c99234a3c6644ec44067ff19b68abdfc05ce9f4f20585f6f8dcab9ce43f"
+    },
+    {
+      "path": "screenshots/square-tabs-plant.png",
+      "sha256": "06d8cdd57697d7ea873c50f304cbb6e4afa4ec61387a917eb79f87c135bc5512"
+    },
+    {
+      "path": "screenshots/square-tabs-accessibility.png",
+      "sha256": "625d3d2011e0c0e34c42a7cf07838228e13732b4f874f5e2a3c8bf655a83c93c"
+    },
+    {
+      "path": "screenshots/photo-consent-failure.png",
+      "sha256": "d96df703ce7f2bec2272e23aaf515ca445cd334866db13e3c162a1da4af80af8"
+    }
+  ],
+  "reportScreens": 49,
+  "pdfPages": 22,
+  "openFinding": "QR-PHOTO-QA-01",
+  "indexSha256": "78b0b136f78e8d71ab489b23c688a4f5573db9af1df312ddd44d701edb4f1804"
+}
