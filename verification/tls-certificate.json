@@ -1,0 +1,8 @@
+{
+  "hostname": "davidishe.github.io",
+  "chainValidated": true,
+  "hostnameValidated": true,
+  "issuer": "countryName=US, organizationName=Let's Encrypt, commonName=YR1",
+  "expiresAt": "2026-12-29T23:44:45+00:00",
+  "daysRemaining": 60
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://davidishe.github.io/fitocode-qa-report/",
+  "publicationId": "fitocode-journey-20261025-published-20261031-v1",
+  "anonymousHttp": "passed",
+  "htmlHash": "78b0b136f78e8d71ab489b23c688a4f5573db9af1df312ddd44d701edb4f1804",
+  "manifest": "passed",
+  "screens": 49,
+  "pngGet200AndHashes": 58,
+  "pdfGet200AndHash": "2ed7037dbe37430494fe25d12a6d1ea0a32d11c74dd6462b2674ea630b177c41",
+  "archiveGet200AndHash": "a71d84b2c00d6afbac32fe517b3052c4e499f07bd5f112c3d6d177fa77392363",
+  "archiveHost": "release-assets.githubusercontent.com",
+  "repeatedUncachedHttpGet": "passed",
+  "browserActionsConsoleAndNetwork": "not checked: local browser disabled in Work settings",
+  "databaseAndAppRuntime": "not applicable: static historical report publication"
+}
